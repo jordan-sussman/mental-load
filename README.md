@@ -2,20 +2,20 @@
 
 A zero-dependency CLI for tracking cognitive load.
 
-### Quick Start
-
-```bash
-./main.py add "maybe I should fix the sink"
-./main.py map       # A visual dashboard of entries
-./main.py summary   # Theme & fragmentation analysis of entries
-./main.py list      # List of entries with IDs
-```
-
-### Core Philosophy
+### Details
 
 - **Zero Friction:** No questions asked. Just dump and move on.
 - **Auto-Detect:** Fuzziness is detected from your language. Weight defaults to 5.
 - **Visibility:** Larger blocks = heavier mental drain. `[?]` = fuzzy/unclear thoughts.
+
+### Examples
+
+```bash
+./main.py add "maybe I should fix the sink" -w 3
+./main.py map       # A visual dashboard of entries
+./main.py summary   # Theme & fragmentation analysis of entries
+./main.py list      # List of entries with IDs
+```
 
 ### Commands
 
