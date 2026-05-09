@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
 Mental Load Tracker - A zero-dependency CLI for tracking cognitive load.
-Simplified version: No dataclass fluff, just pure Python dictionaries and logic.
 """
 
 import argparse
